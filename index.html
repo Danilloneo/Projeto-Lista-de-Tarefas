@@ -18,11 +18,15 @@
             </video>
             <div class="content-bg">
                 <h1>Lista de Tarefas</h1>
+                <audio autoplay loop controls>
+                    <source src="./audio/musicrelax.mp3">
+                </audio>
             </div>
         </div>
     </header>
 <div id="content-form">
 <form>
+   
     <input type="text" id="input-tarefa" required placeholder="Ex: Estudar 15h - 16hrs" />
     <button type="submit" id="btn-add">Adicionar</button>
     <button type="reset" id="botao-cancelar">Cancelar</button>
@@ -32,13 +36,15 @@
         <span>Você pode clicar em ✅ para concluir sua tarefa ou em ❌ para excluir.</p></span>
     </li>
 </ul>
-    </div>
+</div>
+    <div class="content-footer"> 
     <footer>
-        
-        <center>
-        <span>Trabalho desenvolvido por: Danillo Guimarães.</span>
+
+       <center> 
+        <span>Trabalho desenvolvido por: Danillo Guimarães. &copy; Todos os Direitos Reservados.</span>
     </center>
 </footer>
+</div>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="./main.js"></script>
 </body>

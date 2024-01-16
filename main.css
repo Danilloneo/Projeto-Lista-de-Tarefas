@@ -30,7 +30,12 @@ body {
 #banner .content-bg {
     position: relative;
     max-width: 100%;
-    margin: 40px auto;
+    margin: 70px auto;
+}
+
+#banner audio {
+    height: 30px;
+    margin-left: 100px;
 }
 
 #banner .content-bg h1 {
@@ -158,12 +163,21 @@ ul li {
 }
 
 footer {
+    display: flex;
     font-weight: bold;
     color: #04113d;
     position: relative;
-    margin-top: 600px;
+    margin-top: 380px;
     padding-top: 10px;
     padding-bottom: 20px;
     background-color:rgba(255, 255, 255, 0.61);
+    width: 100%;
 }
+
+footer span {
+    width: 100%;
+    font-size: 18px;
+    margin-left: 600px;
+}
+
 

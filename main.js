@@ -21,7 +21,7 @@ $(document).ready(function(){
         $('.btn-concluir').click(function(event){
             var outroClicado = event.target;
             if (outroClicado.classList.contains("btn-concluir")){
-                $('ul li').click( function(){
+                $('.adicionadoAgora').click( function(){
                     $(this).css("text-decoration","line-through");
                 });
             }
